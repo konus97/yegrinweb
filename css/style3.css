@@ -41,7 +41,7 @@ body{
      .c2{width:100%; height:400px;position:relative;  margin:200px auto 0px;}
      .textbox2{width:80%;text-align:center;position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);}
      .textbox2 h3{font-size:3vw; margin-bottom:80px;}
-     .textbox2 p{font-size:1.6vw;line-height:3vw;}
+     .textbox2 p{width:70%;margin:0px auto;font-size:1.6vw;line-height:3vw;}
      .c2 img{height:100%;position:absolute;right:30%; top:0% ; z-index:-1; opacity:0.4;}
 
      /*img*/
@@ -109,7 +109,7 @@ body{
     .c2{width:100%; height:400px;position:relative;  margin:200px auto 0px;}
     .textbox2{width:80%;text-align:center;position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);}
     .textbox2 h3{font-size:3vw; margin-bottom:80px;}
-    .textbox2 p{font-size:1.6vw;line-height:3vw;}
+    .textbox2 p{width:90%;margin:0px auto;font-size:2vw;line-height:3vw;}
     .c2 img{height:100%;position:absolute;right:30%; top:0% ; z-index:-1; opacity:0.4;}
 
 
@@ -182,23 +182,23 @@ body{
     .c1{margin:10% auto; text-align:center;}
     .c1 img{width:10%;}
     .c1 .textbox1{margin-top:2%;}
-    .textbox1 p{margin-bottom:3%; font-size:2.4vw;}
+    .textbox1 p{margin-bottom:3%; font-size:3vw;}
     .textbox1 h3{font-size:5vw;margin-bottom:5%;}
     
     .c1_1{width:80%; margin:11% auto ;align-items:center;}
     .c1_left{width:70vw;height:100vw;border-radius:35vw 35vw 0px 0px;background:url(../img/3clinic/main.jpg)no-repeat center;background-size:cover;border:1px solid #222;box-shadow:-6vw 4vw #efe3da;margin:0px auto;}
     .c1_right{border-top:1px solid #222;
         border-bottom:1px solid #222;padding:5% 0%; box-sizing:border-box; margin-top:15%;text-align:Center;}
-    .c1_right h3{font-size:3vw; }
+    .c1_right h3{font-size:3.3vw; }
     .c1_right h2{font-size:7vw;margin:15px 0px 30px;}
-    .c1_right p{font-size:2.3vw;}
+    .c1_right p{font-size:3vw;}
 
     
      /*c2 & textbox2*/
      .c2{width:100%; height:80vw;position:relative;  margin:4% auto 0px;}
      .textbox2{width:100%;text-align:center;position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);}
      .textbox2 h3{width:90%;font-size:4vw; ;margin:30px auto;}
-     .textbox2 p{width:80%;margin:0px auto;font-size:2.5vw;line-height:5vw;}
+     .textbox2 p{width:95%;margin:0px auto;font-size:3vw;line-height:5vw;}
      .c2 img{height:70%;position:absolute;left:50%; top:50% ;transform:translate(-50%,-50%); z-index:-1; opacity:0.4;}
 
       /*img*/

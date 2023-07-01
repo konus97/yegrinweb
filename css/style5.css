@@ -29,9 +29,11 @@ body{
 
 
     /* w3 */
-    .text1{text-align:center; font-size:20px; margin:70px 0px;}
-    .text1 h4{ font-size:3.5vw;font-weight:bold; margin:40px 0px 0px;}
+    .text1{text-align:center;  margin:70px 0px;}
+    .text1 p{font-size:1.5vw; line-height:3vw;}
+    .text1 h4{ font-size:3.5vw;font-weight:bold; margin:6vw 0px 0px;}
     .text1 span{font-size:150px; font-weight:bold;}
+    .text1 {font-size:3vw;}
 
     .con1{width:60%; height:200px; margin:0px auto;border:0.5px solid rgba(34,34,34,0.4);}
      
@@ -162,24 +164,26 @@ video{width:100%; height:50vw; object-fit: fill;}
 
 
 /* w3 */
-.text1{width:80%;text-align:center; font-size:2vw; margin:3vw auto;}
-.text1 h4{ font-size:5vw;font-weight:600; margin:4vw 0px;}
-.text1 span{font-size:12vw; font-weight:bold;}
+.text1{text-align:center;  margin:70px 0px;}
+    .text1 p{font-size:3vw; line-height:5vw;}
+    .text1 h4{ font-size:4vw;font-weight:bold; margin:6vw 0px 0px;}
+    .text1 span{font-size:150px; font-weight:bold;}
+    .text1 {font-size:3vw;}
 
 .con1{width:90%; height:26vw; margin:0px auto;border:0.5px solid rgba(34,34,34,0.4);}
  
 .click{width:100%;text-align:center;margin:4vw 0px ;}
 .w3-border{width:12vw; height:40px;font-size:2.2vw;}
-
+.option{width:12vw; height:40px; border-radius:0px;}
 .w3-btn{width:85%;height:6vw;font-size:2.5vw; background:#e2c5bc;border:1px solid #222;}
-.con1 p{text-align:center;font-size:3vw;}
-.span material-symbols-outlined{margin-right:15px;font-weight:bold;font-size:2vw;}
+.con1 p{text-align:center;font-size:3vw;color:#222;line-height:6vw;}
+.span material-symbols-outlined{margin-right:15px;font-weight:bold;font-size:2vw;line-height:6vw;}
 
 
 
 .text2{text-align:center; margin-top:100px;}
-.text2 p{margin-bottom:14px; font-size:17px;}
-.text2 h3{font-size:30px;margin-bottom:50px;}
+.text2 p{margin-bottom:14px; font-size:3vw;}
+.text2 h3{font-size:5vw;;margin-bottom:50px;}
 
 .slide_review{width:90%;height:30vw;overflow: hidden; margin:0px auto 5vw;}
 .review{width:100%; height:90vw;}
@@ -188,6 +192,7 @@ video{width:100%; height:50vw; object-fit: fill;}
  .re_1 li{width:30vw ; height:100%;text-align:center;}
  .re_1 li img{width:100%; height:30vw; object-fit:cover;}
  .re_1 li {overflow:hidden;}
+ .re_1 li p{margin-bottom:2vw;}
  .re_1 .up{border-radius:2vw 0px 0px 2vw; }
  .re_1 .down{border-radius:0px 2vw 2vw 0px; }
 
