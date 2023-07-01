@@ -1,0 +1,235 @@
+html, body{overflow-x:hidden;}
+body{
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  
+ }
+ 
+ *{margin:0px; padding:0px;}
+ a{text-decoration:none;color:#222;}
+ li{list-style:none;}
+ 
+/*-------------------------------피시버전 -------------------------------*/
+@media(min-width:1520px){
+     /*header*/
+     header{width:100%; background:#f5f1ee;padding:2vw 0px;}
+     .h_wrap{width:90%;display:flex;align-items:center;justify-content:space-between;margin:0px auto;}
+     h1 img{width:180px;}
+     .h_u{display:flex;justify-content:space-between;}
+     .h_u li{margin-left:80px;}
+     .h_u a{width:100%; height:30px; display:block;font-size:1.2vw;font-weight:500;line-height:30px;box-sizing: border-box;position:relative; z-index:99; }
+     .h_u span{width:0%; height:10px; background:#e2c5bc; border-radius:10px;position:absolute; bottom:0px; left:50%;transform:translateX(-50%);z-index:-1;}
+     .bar{display:none;}
+     .m_menu{display:none;}
+
+     
+    /*c1*/
+    .c1{margin:100px auto; text-align:center;}
+    .c1 img{width:50px;}
+    .c1 .textbox1{margin-top:30px;}
+    .textbox1 p{margin-bottom:14px; font-size:17px;}
+    .textbox1 h3{font-size:30px;margin-bottom:50px;}
+    
+    .c1_1{width:60%; margin:110px auto 0px;display:flex; justify-content:center;align-items:center;}
+    .c1_left{width:500px;height:700px;border-radius:250px 250px 0px 0px;background:url(../img/3clinic/main.jpg)no-repeat center;background-size:cover;border:1px solid #222;box-shadow:-45px 44px #efe3da;}
+ 
+    .c1_right{text-align:left;border-top:1px solid #222;padding:50px 30px; box-sizing:border-box; margin-top:100px;}
+    .c1_right h3{font-size:35px; }
+    .c1_right h2{font-size:50px;margin:15px 0px 30px;}
+    .c1_right p{width:60%;font-size:22px;}
+
+     /*c2 & textbox2*/
+     .c2{width:100%; height:400px;position:relative;  margin:200px auto 0px;}
+     .textbox2{width:80%;text-align:center;position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);}
+     .textbox2 h3{font-size:3vw; margin-bottom:80px;}
+     .textbox2 p{font-size:1.6vw;line-height:3vw;}
+     .c2 img{height:100%;position:absolute;right:30%; top:0% ; z-index:-1; opacity:0.4;}
+
+     /*img*/
+     .video2{width:100%; height:45vw;padding-top:12vw;overflow: hidden;position:relative;margin:0px auto;}
+     video{width: 100%;height:55vw;object-fit: fill;
+       overflow:hidden;}
+
+     /*치료후기*/
+     .textbox3{text-align:center; margin-top:100px;}
+     .textbox3 p{margin-bottom:14px; font-size:17px;}
+     .textbox3 h3{font-size:30px;margin-bottom:50px;}
+     
+     .b_af{width:70%; margin:80px auto;}
+     .b_af ul{width:100%;display:flex; justify-content:space-between; flex-wrap:wrap;}
+     .b_af li{width:49.9%; height:500px; margin-bottom:120px;text-align:right;position:relative;}
+     .b_af li p{font-size:22px;position:absolute;right:0px; bottom:-38px;}
+
+     .b_af li:nth-of-type(1){background:url(../img/3clinic/before1.png)no-repeat;border-radius:35px 0px 0px 35px;background-size:cover;}
+     .b_af li:nth-of-type(2){background:url(../img/3clinic/after1.png)no-repeat;border-radius:0px 35px 35px 0px;background-size:cover;}
+     .b_af li:nth-of-type(3){background:url(../img/3clinic/before2.png)no-repeat;border-radius:35px 0px 0px 35px;background-size:cover; }
+     .b_af li:nth-of-type(4){background:url(../img/3clinic/after2.png)no-repeat;border-radius:0px 35px 35px 0px;background-size:cover; }
+     
+   
+    
+    /*footer*/
+    footer{width:100%;  height:200px;background:#f5f1ee;padding:50px 0px;}
+   .f_1{width:90%;display:flex; align-items:flex-start;justify-content:space-between;margin:0px auto;}
+   footer img{width:100px;}
+   .f_text{width:25%; display:flex;justify-content:space-between;  }
+   .f_text li{margin:10px 0px;}
+   .ft span,.ft2 span{color:#222;font-weight:bold;}
+}
+
+/*-------------------------------테블릿 -------------------------------*/
+@media(min-width:768px) and (max-width:1519px){
+ 
+        /*header*/
+    header{width:100%; background:#f5f1ee;padding:2vw 0px;}
+    .h_wrap{width:90%;display:flex;align-items:center;justify-content:space-between;margin:0px auto;}
+    h1 img{width:180px;}
+    .h_u{display:flex;justify-content:space-between;}
+    .h_u li{margin-left:5vw;}
+    .h_u a{width:100%; height:30px; display:block;font-size:1.6vw;font-weight:600;line-height:30px;box-sizing: border-box;position:relative; z-index:99; }
+    .h_u span{width:0%; height:10px; background:#e2c5bc; border-radius:10px;position:absolute; bottom:0.5vw; left:50%;transform:translateX(-50%);z-index:-1;}
+   
+    .bar{display:none;}
+    .m_menu{display:none;}
+    
+    /*c1*/
+    .c1{margin:100px auto; text-align:center;}
+    .c1 img{width:50px;}
+    .c1 .textbox1{margin-top:30px;}
+    .textbox1 p{margin-bottom:14px; font-size:17px;}
+    .textbox1 h3{font-size:30px;margin-bottom:50px;}
+    
+    .c1_1{width:80%; margin:110px auto 0px;display:flex; justify-content:center;align-items:center;}
+    .c1_left{width:90vw;height:700px;border-radius:45vw 45vw 0px 0px;background:url(../img/3clinic/main.jpg)no-repeat center;background-size:cover;border:1px solid #222;box-shadow:-45px 44px #efe3da;}
+    .c1_right{width:80%;text-align:left;border-top:1px solid #222;padding:50px 30px; box-sizing:border-box; margin-top:100px;}
+    .c1_right h3{font-size:3vw; }
+    .c1_right h2{font-size:50px;margin:15px 0px 30px;}
+    .c1_right p{width:90%;font-size:1.8vw;}
+
+    
+    /*c2 & textbox2*/
+    .c2{width:100%; height:400px;position:relative;  margin:200px auto 0px;}
+    .textbox2{width:80%;text-align:center;position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);}
+    .textbox2 h3{font-size:3vw; margin-bottom:80px;}
+    .textbox2 p{font-size:1.6vw;line-height:3vw;}
+    .c2 img{height:100%;position:absolute;right:30%; top:0% ; z-index:-1; opacity:0.4;}
+
+
+      /*img*/
+      .video2{width:100%; height:45vw;padding-top:12vw;overflow: hidden;position:relative;margin:0px auto;}
+      video{width: 100%;height:55vw;object-fit: fill;
+        overflow:hidden;}
+
+      /*치료후기*/
+      .textbox3{text-align:center; margin-top:100px;}
+      .textbox3 p{margin-bottom:14px; font-size:17px;}
+      .textbox3 h3{font-size:30px;margin-bottom:50px;}
+      
+      .b_af{width:70%; margin:80px auto;}
+      .b_af ul{width:100%;display:flex; justify-content:space-between; flex-wrap:wrap;}
+      .b_af li{width:49.9%; height:500px; margin-bottom:120px;text-align:right;position:relative;}
+      .b_af li p{font-size:22px;position:absolute;right:0px; bottom:-38px;}
+ 
+      .b_af li:nth-of-type(1){background:url(../img/3clinic/before1.png)no-repeat;border-radius:35px 0px 0px 35px;background-size:cover;}
+      .b_af li:nth-of-type(2){background:url(../img/3clinic/after1.png)no-repeat;border-radius:0px 35px 35px 0px;background-size:cover;}
+      .b_af li:nth-of-type(3){background:url(../img/3clinic/before2.png)no-repeat;border-radius:35px 0px 0px 35px;background-size:cover; }
+      .b_af li:nth-of-type(4){background:url(../img/3clinic/after2.png)no-repeat;border-radius:0px 35px 35px 0px;background-size:cover; }
+      
+    
+     
+     /*footer*/
+     footer{width:100%;  height:200px;background:#f5f1ee;padding:5% 0px;}
+     .f_1{width:90%;display:flex; align-items:flex-start;justify-content:space-between;margin:0px auto;}
+     footer img{width:100px;}
+     .f_text{width:40%; display:flex;justify-content:space-around;  }
+     .f_text li{margin:10px 0px;}
+
+}
+
+/*-------------------------------모바일 -------------------------------*/
+ 
+@media(max-width:767px){
+ 
+ /*header*/
+ header{width:100%; background:#f5f1ee;padding:5% 0%;}
+ .h_wrap{width:90%;display:flex;align-items:center;justify-content:space-between;margin:0px auto;}
+ h1 img{width:33%;}
+ 
+ .bar{width:40px;display:block;margin:0px auto;position:absolute;right:4vw;top:7vw;z-index:99;cursor: pointer;}
+ .bar li{background:#222;}
+ .bar li:nth-of-type(1){width:80%; height:4px; border-radius: 7.5px; margin-bottom:1vw;}
+ .bar li:nth-of-type(2){width:60%; height:4px; border-radius: 7.5px;margin-bottom:1vw;}
+ .bar li:nth-of-type(3){width:80%; height:4px; border-radius: 7.5px;}
+
+
+
+ 
+ .h_u{display:none;}
+ .m_menu{width:30vw; height:90vw;background:#b18373; position:fixed; top:0px; right:-30vw;z-index:1;padding:15% 6% 6%; box-sizing: border-box;}
+ .mh_u{width:100%;height:100%;}
+ .m_menu .mh_u a{width:100%; height:13vw; display:block; color:#fff;
+ line-height:13vw;text-align:right;font-size:3vw;}
+   
+
+    
+    .h_u{display:none;}
+    .m_menu{width:30vw; height:90vw;background:#b18373; position:absolute; top:0px; right:-30vw;z-index:1;padding:15% 6% 6%; box-sizing: border-box;}
+    .mh_u{width:100%;height:100%;}
+    .m_menu .mh_u a{width:100%; height:13vw; display:block; color:#fff;
+    line-height:13vw;text-align:right;font-size:3vw;}
+    
+
+    
+    /*c1*/
+    .c1{margin:10% auto; text-align:center;}
+    .c1 img{width:10%;}
+    .c1 .textbox1{margin-top:2%;}
+    .textbox1 p{margin-bottom:3%; font-size:2.4vw;}
+    .textbox1 h3{font-size:5vw;margin-bottom:5%;}
+    
+    .c1_1{width:80%; margin:11% auto ;align-items:center;}
+    .c1_left{width:70vw;height:100vw;border-radius:35vw 35vw 0px 0px;background:url(../img/3clinic/main.jpg)no-repeat center;background-size:cover;border:1px solid #222;box-shadow:-6vw 4vw #efe3da;margin:0px auto;}
+    .c1_right{border-top:1px solid #222;
+        border-bottom:1px solid #222;padding:5% 0%; box-sizing:border-box; margin-top:15%;text-align:Center;}
+    .c1_right h3{font-size:3vw; }
+    .c1_right h2{font-size:7vw;margin:15px 0px 30px;}
+    .c1_right p{font-size:2.3vw;}
+
+    
+     /*c2 & textbox2*/
+     .c2{width:100%; height:80vw;position:relative;  margin:4% auto 0px;}
+     .textbox2{width:100%;text-align:center;position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);}
+     .textbox2 h3{width:90%;font-size:4vw; ;margin:30px auto;}
+     .textbox2 p{width:80%;margin:0px auto;font-size:2.5vw;line-height:5vw;}
+     .c2 img{height:70%;position:absolute;left:50%; top:50% ;transform:translate(-50%,-50%); z-index:-1; opacity:0.4;}
+
+      /*img*/
+      .video2{width:100%; height:55vw;padding-top:12vw;overflow: hidden;position:relative;margin:0px auto;}
+      video{width: 100%;height:55vw;object-fit: fill;
+        overflow:hidden;}
+
+      /*치료후기*/
+      .textbox3{text-align:center; margin-top:100px;}
+      .textbox3 p{margin-bottom:14px; font-size:4vw;}
+      .textbox3 h3{font-size:8vw;margin-bottom:5%;}
+      
+      .b_af{width:90%; margin:9% auto;}
+      .b_af ul{width:100%;display:flex; justify-content:center; flex-wrap:wrap;}
+      .b_af li{width:40vw; height:70vw; margin-bottom:18%;text-align:right;position:relative;}
+      .b_af li p{font-size:4vw;position:absolute;right:0px; bottom:-35px;}
+ 
+      .b_af li:nth-of-type(1){background:url(../img/3clinic/before1.png)no-repeat;border-radius:35px 0px 0px 35px;background-size:cover;}
+      .b_af li:nth-of-type(2){background:url(../img/3clinic/after1.png)no-repeat;border-radius:0px 35px 35px 0px;background-size:cover;}
+      .b_af li:nth-of-type(3){background:url(../img/3clinic/before2.png)no-repeat;border-radius:35px 0px 0px 35px;background-size:cover; }
+      .b_af li:nth-of-type(4){background:url(../img/3clinic/after2.png)no-repeat;border-radius:0px 35px 35px 0px;background-size:cover; }
+      
+    
+     
+     /*footer*/
+     footer{width:100%;  height:200px;background:#f5f1ee;padding:5% 0px;  font-size:2vw;}
+     .f_1{width:90%;display:flex; align-items:flex-start;justify-content:space-between;margin:0px auto;}
+     footer img{width:30%;}
+     .f_text{width:40%; display:flex;justify-content:space-around;  }
+     .f_text li{margin:10px 0px;}
+     footer span{color:#222; font-weight:bold;}
+        
+}
+

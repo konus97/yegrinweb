@@ -1,0 +1,200 @@
+html, body{overflow-x:hidden;}
+body{
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  
+ }
+ body *{word-break: keep-all;}
+ 
+ *{margin:0px; padding:0px;}
+ a{text-decoration:none;color:#222;}
+ li{list-style:none;}
+ 
+ 
+
+ /*-------------------------------피시버전 -------------------------------*/
+ @media(min-width:1220px){
+    /*header*/
+    header{width:100%; background:#f5f1ee;padding:2vw 0px;}
+     .h_wrap{width:90%;display:flex;align-items:center;justify-content:space-between;margin:0px auto;}
+     h1 img{width:180px;}
+     .h_u{display:flex;justify-content:space-between;}
+     .h_u li{margin-left:80px;}
+     .h_u a{width:100%; height:30px; display:block;font-size:1.2vw;font-weight:500;line-height:30px;box-sizing: border-box;position:relative; z-index:99; }
+     .h_u span{width:0%; height:10px; background:#e2c5bc; border-radius:10px;position:absolute; bottom:0.5vw; left:50%;transform:translateX(-50%);z-index:-1;}
+     .bar{display:none;}
+     .m_menu{display:none;}
+
+
+    /*c3*/
+    .c3{text-align:center; margin:100px 0px;}
+    .c3 h2{margin-bottom:15px; font-weight:bold;}
+
+    .c3_1{width:55%; margin:0px auto;display:flex; justify-content:space-between;}
+    .c3_1 li{width:9vw; height:45px; line-height:45px; border-radius:30px; background:#222;color:#fff;text-align:center;}
+    .c3_1 li:first-child{background:#b18373;}
+    .c3_1 a{width:100%; height:100%; display:block; color:#fff;}
+
+    .c3_2{width:80%; margin:100px auto 0px;display:flex;justify-content:center;align-items:flex-start;}
+    .c3_2 .left{width:800px; height:450px; border:1px solid #222; background:url(../img/6people/hos.jpg)no-repeat center; background-size:cover; border-radius:80px 0px 80px 0px;}
+    .c3_2 .right{border-top:1px solid #222; padding:40px; box-sizing:border-box;font-size:14px;}
+    .c3_2 .right img{width:100px; }
+    .c3_2 .right h1{margin-bottom:20px; font-weight:bold;font-size:45px;color:#b18373}
+    .c3_2 .right h4{font-weight:bold; font-size:16px;margin-top:30px;}
+   
+    iframe{width:15vw;height:9vw;padding-left:40px;border:1px solid #222;}
+ 
+
+
+    /*c4*/
+    .c4{width:70%; height:100%;margin:100px auto 0px;}
+    .text1{text-align:center;margin:10vw 0vw 5vw;}
+    .text1 h3{font-weight:bold;font-size:2vw;margin-top:1vw;}
+    .text1 p{font-size:1.5vw;}
+
+    .top{width:100%;display:flex;justify-content:flex-start; align-items:center;background:url(../img/6people/logo_bg2.png)no-repeat right top;background-size:20%,20%}
+    .docter1{width:32vw;height:50vw;border-radius:16vw 16vw 0px 0px;background:url(../img/6people/men.png)no-repeat center;background-size:cover;box-shadow:-45px 44px  #f2faef;}
+    .docter_text{width:35vw; border-top:1px solid #222; padding:40px; box-sizing:border-box;}
+    .docter_text h3{margin-bottom:40px ; font-size:3vw;font-weight:bold;}
+    .docter_text p{line-height:3vw;font-size:1.3vw;}
+
+    .bottom{width:100%;display:flex;justify-content:flex-end; align-items:center;background:url(../img/6people/logo_bg.png)no-repeat left bottom;background-size:20%,20%; margin:100px 0px;}
+    .bottom>.docter_text{text-align:right;}
+    .docter2{width:32vw;height:50vw;border-radius:16vw 16vw 0px 0px;background:url(../img/6people/women.jpg)no-repeat center;background-size:cover;box-shadow:45px 44px #f7f3f0;}
+
+  /*footer*/
+  footer{width:100%;  height:200px;background:#f5f1ee;padding:50px 0px;}
+   .f_1{width:90%;display:flex; align-items:flex-start;justify-content:space-between;margin:0px auto;}
+   footer img{width:100px;}
+   .f_text{width:25%; display:flex;justify-content:space-between;  }
+   .f_text li{margin:10px 0px;}
+   .ft span,.ft2 span{color:#222;font-weight:bold;}
+ }
+
+
+ /*-------------------------------테블릿 -------------------------------*/
+ @media(min-width:768px) and (max-width:1219px){
+
+  /*header*/
+  header{width:100%; background:#f5f1ee;padding:2vw 0px;}
+  .h_wrap{width:90%;display:flex;align-items:center;justify-content:space-between;margin:0px auto;}
+  h1 img{width:180px;}
+  .h_u{display:flex;justify-content:space-between;}
+  .h_u li{margin-left:5vw;}
+  .h_u a{width:100%; height:30px; display:block;font-size:1.6vw;font-weight:600;line-height:30px;box-sizing: border-box;position:relative; z-index:99; }
+  .h_u span{width:0%; height:10px; background:#e2c5bc; border-radius:10px;position:absolute; bottom:0px; left:50%;transform:translateX(-50%);z-index:-1;}
+  .bar{display:none;}
+  .m_menu{display:none;}
+
+   /*c3*/
+   .c3{text-align:center; margin:100px 0px;}
+   .c3 h2{margin-bottom:15px; font-weight:bold;}
+
+   .c3_1{width:65%; margin:0px auto;display:flex; justify-content:space-between;}
+   .c3_1 li{width:12vw; height:45px; line-height:45px; border-radius:30px; background:#222;color:#fff;text-align:center;}
+   .c3_1 li:first-child{background:#b18373;}
+   .c3_1 a{width:100%; height:100%; display:block; color:#fff;}
+
+   .c3_2{width:80%;margin:0px auto;}
+   .c3_2 .left{width:100%; height:40vw; border:1px solid #222; background:url(../img/6people/hos.jpg)no-repeat center; background-size:cover; border-radius:7vw 0px 7vw 0px;margin-top:5vw;}
+   .c3_2 .right{ box-sizing:border-box;font-size:2.1vw;}
+   .c3_2 .right img{width:10vw; }
+   .c3_2 .right h1{margin-bottom:20px; font-weight:500;font-size:4.3vw;color:#b18373}
+   .c3_2 .right h4{font-weight:800; font-size:2vw;margin:3vw 0vw 2vw;}
+   .m_c3_2{display:flex;justify-content: space-between;padding-top:5vw;align-items: center;}
+   iframe{width:40vw;height:30vw;}
+
+
+   
+    /*c4*/
+    .c4{width:80%; height:100%;margin:10vw auto 3vw;}
+    .text1{text-align:center;margin:100px 0px 50px;}
+    .text1 h3{font-weight:bold;font-size:3vw;margin-top:2vw;}
+
+    .top{width:100%;display:flex;justify-content:flex-start; align-items:center;background:url(../img/6people/logo_bg2.png)no-repeat right top;background-size:20%,20%}
+    .docter1{width:34vw;height:45vw;border-radius:17vw 17vw 0px 0px;background:url(../img/6people/men.png)no-repeat center;background-size:cover;box-shadow:-2vw 1vw #f2faef;}
+    .docter_text{width:400px; border-top:1px solid #222; padding:40px; box-sizing:border-box;}
+    .docter_text h3{margin-bottom:40px ; font-size:28px;font-weight:bold;}
+    .docter_text p{line-height:32px;}
+
+    .bottom{width:100%;display:flex;justify-content:flex-end; align-items:center;background:url(../img/6people/logo_bg.png)no-repeat left bottom;background-size:20%,20%; margin:100px 0px;}
+    .bottom>.docter_text{text-align:right;}
+    .docter2{width:34vw;height:45vw;border-radius:17vw 17vw 0px 0px;background:url(../img/6people/women.jpg)no-repeat center;background-size:cover;box-shadow:-2vw 1vw #f7f3f0;}
+
+       /*footer*/
+   footer{width:100%;  height:200px;background:#f5f1ee;padding:5% 0px;}
+   .f_1{width:90%;display:flex; align-items:flex-start;justify-content:space-between;margin:0px auto;}
+   footer img{width:100px;}
+   .f_text{width:40%; display:flex;justify-content:space-around;  }
+   .f_text li{margin:10px 0px;}
+
+ }
+
+
+ /*-------------------------------모바일 -------------------------------*/
+ 
+ @media(max-width:767px){
+ 
+  /*header*/
+  header{width:100%; background:#f5f1ee;padding:5% 0%;}
+  .h_wrap{width:90%;display:flex;align-items:center;justify-content:space-between;margin:0px auto;}
+  h1 img{width:33%;}
+  
+  .bar{width:40px;display:block;margin:0px auto;position:absolute;right:4vw;top:7vw;z-index:99;cursor: pointer;}
+  .bar li{background:#222;}
+  .bar li:nth-of-type(1){width:80%; height:4px; border-radius: 7.5px; margin-bottom:1vw;}
+  .bar li:nth-of-type(2){width:60%; height:4px; border-radius: 7.5px;margin-bottom:1vw;}
+  .bar li:nth-of-type(3){width:80%; height:4px; border-radius: 7.5px;}
+ 
+ 
+
+  
+  .h_u{display:none;}
+  .m_menu{width:30vw; height:90vw;background:#b18373; position:fixed; top:0px; right:-30vw;z-index:1;padding:15% 6% 6%; box-sizing: border-box;}
+  .mh_u{width:100%;height:100%;}
+  .m_menu .mh_u a{width:100%; height:13vw; display:block; color:#fff;
+  line-height:13vw;text-align:right;font-size:3vw;}
+
+  /*c3*/
+  .c3{text-align:center; margin:8vw 0px;}
+  .c3 h2{margin-bottom:15px; font-weight:bold;font-size:4vw;}
+  .c3 p{font-size:2.6vw;}
+
+  .c3_1{width:80%; margin:0px auto;display:flex; justify-content:space-around}
+  .c3_1 li{width:14.3vw; height:5vw; line-height:5vw; border-radius:3vw; background:#222;color:#fff;text-align:center;}
+  .c3_1 li:first-child{background:#b18373;}
+  .c3_1 a{width:100%; height:100%; display:block; color:#fff;font-size:1vw;}
+
+  .c3_2{width:80%;margin:0px auto;}
+  .c3_2 .left{width:100%; height:40vw; border:1px solid #222; background:url(../img/6people/hos.jpg)no-repeat center; background-size:cover; border-radius:7vw 0px 7vw 0px;margin-top:5vw;}
+  .c3_2 .right{ box-sizing:border-box;font-size:2.1vw;}
+  .c3_2 .right img{width:10vw; }
+  .c3_2 .right h1{margin-bottom:20px; font-weight:500;font-size:4.3vw;color:#b18373}
+  .c3_2 .right h4{font-weight:800; font-size:2vw;margin:3vw 0vw 2vw;}
+  .m_c3_2{display:flex;justify-content: space-between;padding-top:5vw;align-items: center;}
+  iframe{width:40vw;height:30vw;}
+
+  
+    /*c4*/
+    .c4{width:80%; height:100%;margin:10vw auto 3vw;}
+    .text1{text-align:center;margin:100px 0px 50px;}
+    .text1 h3{font-weight:bold;font-size:3vw;margin-top:2vw;}
+
+    .top{width:100%;}
+    .docter1{width:70vw;height:90vw;border-radius:35vw 35vw 0px 0px;background:url(../img/6people/men.png)no-repeat center;background-size:cover;box-shadow:-4vw 4vw #f2faef;margin:0px auto;}
+    .docter_text{width:70vw;background:url(../img/6people/logo_bg2.png)no-repeat right center;background-size:25%,25%; margin:5vw auto;}
+    .docter_text h3{margin-bottom:40px ; font-size:28px;font-weight:bold;}
+    .docter_text p{line-height:32px;}
+
+    .bottom{width:100%;margin:100px 0px;}
+    .bottom>.docter_text{width:70vw;background:url(../img/6people/logo_bg.png)no-repeat left center;background-size:25%,25%; border-top:1px solid #222;margin:5vw auto;text-align:right;padding-top:5vw;  }
+    .docter2{width:70vw;height:90vw;border-radius:35vw 35vw 0px 0px;background:url(../img/6people/women.jpg)no-repeat center;box-shadow: 4vw 4vw #f7f3f0;background-size:cover;margin:0px auto;}
+
+  /*footer*/
+  footer{width:100%;  height:200px;background:#f5f1ee;padding:5% 0px;  font-size:2vw;}
+  .f_1{width:90%;display:flex; align-items:flex-start;justify-content:space-between;margin:0px auto;}
+  footer img{width:30%;}
+  .f_text{width:40%; display:flex;justify-content:space-around;  }
+  .f_text li{margin:10px 0px;}
+  footer span{color:#222; font-weight:bold;}
+
+ }
