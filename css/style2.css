@@ -38,7 +38,7 @@ body{
    .t2{margin-bottom:190px;animation:t 2s ease-in forwards;opacity :0; }
    .con2 img{width:45px;}
    .con2 h3{margin:15px 0px;}
-   .ig1{width:500px;height:700px;border-radius:250px 250px 0px 0px;background:url(../img/2introduction/con22.png)no-repeat center;background-size:cover;border:1px solid 
+   .ig1{width:500px;height:700px;border-radius:250px 250px 0px 0px;background:url(../img/2introduction/con22.PNG)no-repeat center;background-size:cover;border:1px solid 
     #222;box-shadow:-45px 44px #efe3da;}
     
     .ig2{display:none;}
@@ -240,8 +240,8 @@ body{
      /*con2_1*/
    .t3 img{width:30px;}
    .t3{border-bottom:none;}
-   .con2_1 h3{margin:15px 0px;font-size:3vw;}
-   .con2_1 p{font-size:2vw;}
+   .con2_1 h3{margin:15px 0px;font-size:5vw;}
+   .con2_1 p{font-size:3.3vw;}
 
    /*배너*/
    .bnr{width:100%; height:60vw; margin-top:25%;overflow: hidden;}

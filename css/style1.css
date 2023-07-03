@@ -509,13 +509,13 @@ body{
         .con4_text{width:80%;text-align:center; color:#222;border-bottom
           :1px solid rgba(34,34,34,0.2); padding-bottom:20px;margin:0px auto;}
         .con4_text p{margin-bottom:3%; font-size:3vw;}
-        .con4_text h3{font-size:7vw;}
+        .con4_text h3{font-size:5vw;}
         .care_slide{width:80%; overflow:hidden;margin:0px auto;}
         .care{width:600%;display:flex;}
         .care li{width:100%; text-align:center; margin:0px auto}
         .care li img{width:100%;}
         .care li p{font-weight:100; margin:10px 0px;font-size:3.3vw;}
-        .care li h4{font-size:4.5vw;}
+        .care li h4{font-size:3vw;}
       
           /*con5*/
         .con5{width:100%;height:50vw;background:url(../img/aindex/logo\ pink.png) no-repeat; background-position:center; background-size:contain; position:relative;}
