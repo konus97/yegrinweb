@@ -149,7 +149,7 @@ body{
    .con2 img{width:30px;}
    .con2 h3{margin:15px 0px;font-size:1.8vw;}
    .con2 p{font-size:13px;}
-   .ig1{width:60vw;height:70vw;border-radius:30vw 30vw 0px 0px;background:url(../img/2introduction/con22.png)no-repeat center;background-size:cover;border:1px solid 
+   .ig1{width:60vw;height:70vw;border-radius:30vw 30vw 0px 0px;background:url(../img/2introduction/con22.PNG)no-repeat center;background-size:cover;border:1px solid 
     #222;box-shadow:-30px 34px #efe3da;}
     /*con2_1*/
     .con2_1{position:relative;}
@@ -226,7 +226,7 @@ body{
  
      /*con2*/
      .con2{width:95%;margin:50px auto 0px; }
-     .ig2{width:60vw;height:70vw;border-radius:30vw 30vw 0px 0px;background:url(../img/2introduction/con22.png)no-repeat center;background-size:cover;border:1px solid 
+     .ig2{width:60vw;height:70vw;border-radius:30vw 30vw 0px 0px;background:url(../img/2introduction/con22.PNG)no-repeat center;background-size:cover;border:1px solid 
         #222;box-shadow:-20px 25px #efe3da; margin:60px auto;}
     .t1,.t2,.t3{width:100%; padding:20px 2%; box-sizing:border-box; border-bottom:1px solid #222;opacity: 0;}
     
