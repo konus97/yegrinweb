@@ -2,7 +2,7 @@
 
 $(function(){
     setInterval(function(){
-        $(".slide1").stop().animate({marginLeft:"-100%"},3000,function(){
+        $(".slide1").stop().animate({marginLeft:"-100%"},1000,function(){
             $(".slide1").css({margin:"0px"})
             $(".slide1 li").first().appendTo(".slide1");
         })
