@@ -13,7 +13,7 @@ $(function(){
 
     $(window).resize(function(){ 
         if (window.innerWidth <1220) {    setInterval(function(){
-            $(".review").stop().animate({marginTop:"-30vw"},3000,function(){
+            $(".review").stop().animate({marginTop:"-30vw"},1000,function(){
                 $(".review").css({marginTop:"0px"})
                 $(".review ul").first().appendTo(".review");
             })

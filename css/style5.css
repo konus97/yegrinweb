@@ -186,8 +186,8 @@ font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, '
 
 
 .text2{text-align:center; margin-top:15vw;}
-.text2 p{margin-bottom:14px; font-size:3vw;}
-.text2 h3{font-size:5vw;;margin-bottom:50px;}
+.text2 p{margin-bottom:2vw; font-size:3vw;}
+.text2 h3{font-size:5vw;;margin-bottom:5vw;}
 
 .slide_review{width:90%;height:30vw;overflow: hidden; margin:0px auto 5vw;}
 .review{width:100%; height:90vw;}
